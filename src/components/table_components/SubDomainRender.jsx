@@ -1,13 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import styled from 'styled-components';
 
-const LogOutDiv=styled.div`
-    margin-left: 90px;
-    font-size: bold;
-`;
-
-function NavBar() {
+function SubDomainRender() {
   return (
     <Navbar bg="dark" variant="dark">
       <Container>
@@ -17,15 +11,10 @@ function NavBar() {
           <Navbar.Text>
             Signed in as: <a href="#login">Rahul sahni</a>
           </Navbar.Text>
-          <LogOutDiv>
-            <Navbar.Text>
-                <a href="#logout">Logout</a>
-            </Navbar.Text>
-          </LogOutDiv>
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
 }
 
-export default NavBar;
+export default SubDomainRender;

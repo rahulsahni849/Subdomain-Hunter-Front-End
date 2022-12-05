@@ -12,24 +12,6 @@ const TableContainer=styled.div`
     flex-direction: row;
 `;
 
-const InputFormContainer=styled.div`
-    border: 1px solid black;
-    padding: 10px;
-    margin: 10px;
-    flex: 7;
-`
-
-const ButtonFormContainer=styled.div`
-    flex:1;
-    margin: 10px;
-    border: 1px solid black;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-`
-
-
 function TableComponent() {
     //Subdomain,status,Title,IP,Ports,ContentLength,screenshot,Response Time,Action
     const columns = [
@@ -78,12 +60,14 @@ function TableComponent() {
     const customStyles = {
         table: {
             style: {
+                
             },
         },
         tableWrapper: {
             style: {
                 display: 'table',
-                background:"white"
+                background:"white",
+                //margin: "15px",
             },
         },
         headRow: {
