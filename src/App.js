@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from './pages/Home';
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar';
+import styled from 'styled-components';
+import { Container } from 'react-bootstrap';
+
+const AppContainer=styled.div`
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background: linear-gradient(#e66465, #9198e5);
+  background-repeat: no-repeat;
+
+`
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContainer>
+        <NavBar />
+        <Home />
+    </AppContainer>
   );
 }
 
