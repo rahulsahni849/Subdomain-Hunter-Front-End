@@ -1,6 +1,7 @@
 import SearchBox from "../components/SearchBox";
 import styled from "styled-components";
 import TableComponent from "../components/TableComponent";
+import { Link } from "react-router-dom";
 
 
 const HomeContainer=styled.div`
