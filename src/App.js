@@ -7,6 +7,9 @@ import { Container } from 'react-bootstrap';
 import { Routes,Route } from 'react-router-dom';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import { AuthProvider } from './utils/authContext';
+import WelcomePage from './pages/WelcomePage';
+import PrivateRoute from './utils/PrivateRoute';
 
 const AppContainer=styled.div`
   height: 100vh;
@@ -20,15 +23,19 @@ const AppContainer=styled.div`
 `
 
 function App() {
+
   return (
-    <AppContainer>
-        <NavBar />
-        <Routes>
-          <Route path="/home" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-        </Routes>
-    </AppContainer>
+    <AuthProvider>
+      <AppContainer>    
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<WelcomePage />} exact/>
+            <Route path="/home" element={<PrivateRoute><Home /></PrivateRoute>} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+          </Routes>
+      </AppContainer>
+    </AuthProvider>
   );
 }
 
