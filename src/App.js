@@ -17,7 +17,7 @@ const AppContainer=styled.div`
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  background: linear-gradient(#e66465, #9198e5);
+  background: linear-gradient(#9198e5,#9198e5);
   background-repeat: no-repeat;
 
 `

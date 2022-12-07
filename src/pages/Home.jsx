@@ -24,7 +24,7 @@ function Home() {
             Sub-Domain Finder
         </HomeName>
         <SearchBox />
-        <TableComponent />
+        {/* <TableComponent /> */}
     </HomeContainer>
   );
 }
