@@ -11,16 +11,16 @@ In the project directory, you can run:
 ## Screenshots of Application
 
 <img
-  src="https://github.com/rahulsahni849/Todo-web-app/blob/master/images/Screenshot (129).png"
+  src="https://github.com/rahulsahni849/Subdomain-Hunter-Front-End/blob/master/images/welcome.png"
   alt="Alt text"
   title="Optional title"
-  style="display: inline-block; margin: 0 auto;">
+  style="display: inline-block; margin: 0 auto;  max-width: 300px">
   
   
 <br><br>
 
 <img
-src="https://github.com/rahulsahni849/Todo-web-app/blob/master/images/Screenshot (130).png"
+src="https://github.com/rahulsahni849/Subdomain-Hunter-Front-End/blob/master/images/sign_up.png"
 alt="Alt text"
 title="Optional title"
 style="display: inline-block; margin: 0 auto; max-width: 300px">
@@ -29,7 +29,7 @@ style="display: inline-block; margin: 0 auto; max-width: 300px">
 <br><br>
 
 <img
-src="https://github.com/rahulsahni849/Todo-web-app/blob/master/images/Screenshot (131).png"
+src="https://github.com/rahulsahni849/Subdomain-Hunter-Front-End/blob/master/images/dashboard.png"
 alt="Alt text"
 title="Optional title"
 style="display: inline-block; margin: 0 auto; max-width: 300px">
@@ -38,7 +38,7 @@ style="display: inline-block; margin: 0 auto; max-width: 300px">
 <br><br>
 
 <img
-src="https://github.com/rahulsahni849/Todo-web-app/blob/master/images/Screenshot (132).png"
+src="https://github.com/rahulsahni849/Subdomain-Hunter-Front-End/blob/master/images/table_pic.png"
 alt="Alt text"
 title="Optional title"
 style="display: inline-block; margin: 0 auto; max-width: 300px">
@@ -47,17 +47,10 @@ style="display: inline-block; margin: 0 auto; max-width: 300px">
 <br><br>
 
 <img
-src="https://github.com/rahulsahni849/Todo-web-app/blob/master/images/Screenshot (133).png"
+src="https://github.com/rahulsahni849/Subdomain-Hunter-Front-End/blob/master/images/table_pic_2.png"
 alt="Alt text"
 title="Optional title"
 style="display: inline-block; margin: 0 auto; max-width: 300px">
 <br><br>
 
-<br><br>
-
-<img
-src="https://github.com/rahulsahni849/Todo-web-app/blob/master/images/Screenshot (134).png"
-alt="Alt text"
-title="Optional title"
-style="display: inline-block; margin: 0 auto; max-width: 300px">
 <br><br>
